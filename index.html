@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Grace Newman
+EMAIL: gnnewman@uci.edu
+-->
+
+<head>
+  <!-- author, description, and more setup -->
+  <meta charset="utf-8">
+  <meta name="author" content="Grace Newman">
+  <meta name="description" content="Portfolio website for INF 133. Highlights projects of student Grace Newman.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+   <!-- you would link to an external stylesheet here! -->
+  <link rel="stylesheet" href="styles.css">
+   <!-- icon ? -->
+   <link rel="icon" type="image/x-icon" href="ds-icon.svg"/>
+  <!-- more icons hehe-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style></style>
+   <!-- you would also link to Bootstrap here! -->
+  <title>Grace Newman: Interactive Portfolio</title>
+</head>
+<body>
+  <!-- navbar at the top of the page, outlines home, portfolio, contact, and social info -->
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- HOME SECTION -->
+  <!-- headshot, dimmed for effect with my name and description -->
+  <section id="home">
+    <div class="styled-headshot" title="Dimmed headshot of Grace Newman in the UCI Boathouse. Grace is wearing
+    a black UCI Crew polo.">
+      <div class="headshot-text">
+        <h1 style="font-size: 64px;">Grace Newman</h1>
+        <p style="font-size: 36px;">Health Informatics Student</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio">
+    <h2 style="text-align:center">Portfolio</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="mircore_logo.jpeg" alt="miRCore logo" style="width:100%">
+          <div class="container">
+            <h2>miRCore Volunteer Program</h2>
+            <p class="title">Student Researcher</p>
+            <p>As a student researcher, I led projects studying biomarkers indicative of
+              Type II Diabetes, COVID-19, and Breast Cancer. Check out my team's report!
+            </p>
+            <a href="brca-mircore-paper.pdf">miRNA Regulation in Breast Cancer</a>
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="uci-ics-logo.jpeg" alt="UCI ICS Logo" style="width:100%">
+            <div class="container">
+              <h2>UCI INF 132 Project</h2>
+              <p class="title">Sleepinc</p>
+              <p>A group of peers and myself designed a sleep tracker app called Sleepinc, designed to
+                tailor a user's experience based on their sleep habits.
+              </p>
+              <p> </p>
+              <p> </p>
+              <p> </p>
+              <a href="sleepinc.html">Sleepinc Artifacts</a>
+              <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="or-logo.png" alt="UCI ORI Logo" style="width:100%">
+          <div class="container">
+            <h2>UCI Office of Research</h2>
+            <p class="title">Health Data Specialist</p>
+            <p>I work as an interdisciplinary Research Assistant and Health Data Specialist
+              with UCI's Office of Research. Here's their about page!
+            </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <a href="https://research.uci.edu/about-or/">UCI ORI About Page</a>
+            <p></p>
+          </div>
+        </div>
+        <!-- <div class="column">
+          <div class="card">
+            <img src="uci-ics-logo.jpeg" alt="UCI ICS Logo" style="width:100%">
+            <div class="container">
+              <h2>UCI INF 132 Project</h2>
+              <p class="title">Sleepinc</p>
+              <p>A group of peers and myself designed a sleep tracker app called Sleepinc, designed to
+                tailor a user's experience based on their sleep habits.
+              </p>
+              <p> </p>
+              <p> </p>
+              <p> </p>
+              <a href="/./sleepinc.html">Sleepinc Artifacts</a>
+              <p></p>
+            </div>
+          </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h1>Contact me!</h1>
+
+    <div class="contact-container">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="First">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Last">
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+
+  <br>
+
+<!-- BOTTOM NAVBAR WITH SOCIALS -->
+  <section id="bottom-navbar">
+    <div class="navbar" style="align-content: center;">
+      <a href="https://linkedin.com/in/grace-newman/inf"><i class="fa fa-fw fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/gnewman.csv?igsh=YzAwZjE1ZTI0Zg%3D%3D&utm_-source=qr"><i class="fa fa-fw fa-instagram"></i></a>
+      <a href="https://www.facebook.com/gnnewman2003"><i class="fa fa-fw fa-facebook"></i></a>
+    </div>
+  </section>
+
+</body>
+</html>
